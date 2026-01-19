@@ -7,6 +7,7 @@
       const quantity = document.getElementById('quantity').value;
       const message = document.getElementById('message').value;
 
-      const text = Name: ${name}%0APhone: ${phone}%0AProduct: ${product}%0AQuantity: ${quantity}%0AMessage: ${message};
-      window.open(https://wa.me/919392406021?text=${text}, '_blank');
+      const text = 'Name: ${name}%0APhone: ${phone}%0AProduct: ${product}%0AQuantity: ${quantity}%0AMessage: ${message}';
+      const whatappURL='https://wa.me/919392406021?text=${text}';
+      window.open(whatappURL, "_blank")
       }
