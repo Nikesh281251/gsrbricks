@@ -5,7 +5,7 @@
       color: #333;
     }
     header {
-      background-image: url(head-img.jpeg);
+      background-image: url(images3.jpeg);
       background-size: cover;
       background-repeat: no-repeat;
       color:white;
@@ -16,9 +16,11 @@
       margin: 0;
     }
     nav {
-      background: #444;
+      background: #6e6d6d;
       padding: 10px;
       text-align: center;
+      box-shadow: 0px 0px 20px rgb(189, 189, 189); green, blue);
+  
     }
     nav a {
       color: #fff;
@@ -26,14 +28,14 @@
       text-decoration: none;
       font-weight: bold;
     }
-
     .hero {
-      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1581092160613-b5c2d89f61f8');
+      background: url(images4.jpeg);
       background-size: cover;
       background-position: center;
       color: #fff;
       padding: 80px 20px;
       text-align: center;
+      box-shadow: 0px 0px 10px;
     }
     .hero h2 {
       font-size: 36px;
@@ -46,6 +48,7 @@
       padding: 40px 20px;
       max-width: 1100px;
       margin: auto;
+      border-bottom: 2px solid rgb(216, 215, 215);
     }
     .cards {
       display: grid;
@@ -57,6 +60,13 @@
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .card:hover {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
     }
     .card h3 {
       margin-top: 0;
