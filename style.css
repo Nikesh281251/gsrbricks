@@ -19,7 +19,7 @@
       background: #6e6d6d;
       padding: 10px;
       text-align: center;
-      box-shadow: 0px 0px 20px rgb(189, 189, 189); green, blue);
+      box-shadow: 0px 0px 20px rgb(189, 189, 189);
   
     }
     nav a {
@@ -27,6 +27,10 @@
       margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
+    }
+    .marq{
+      padding: 5px;
+      font-weight:bold;
     }
     .hero {
       background: url(images4.jpeg);
@@ -52,20 +56,21 @@
     }
     .cards {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 20px;
     }
     .card {
       background: #fff;
       padding: 20px;
       border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     }
     .card:hover {
       background: #fff;
       padding: 30px;
       border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 15px rgba(0,0,0,1.0);
+      cursor: pointer;
 
     }
     .card h3 {
@@ -113,4 +118,9 @@
       text-align: center;
       padding: 15px;
       margin-top: 40px;
+    }
+    .hi{
+      width:100%;
+      height:auto;
+      border-radius:10px;
     }
